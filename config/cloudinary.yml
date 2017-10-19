@@ -1,0 +1,18 @@
+development:
+  cloud_name: de8t2zz8b
+  api_key: '857372558745333'
+  api_secret: E8a2l_pYS3YEBtEHHTYq348Lq_U
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: de8t2zz8b
+  api_key: '857372558745333'
+  api_secret: E8a2l_pYS3YEBtEHHTYq348Lq_U
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: de8t2zz8b
+  api_key: '857372558745333'
+  api_secret: E8a2l_pYS3YEBtEHHTYq348Lq_U
+  enhance_image_tag: true
+  static_image_support: false

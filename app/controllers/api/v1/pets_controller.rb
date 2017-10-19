@@ -7,7 +7,6 @@ class Api::V1::PetsController < ApiController
 		render json: @pets
 		#format.json { render json: @pets }
 		#respond_with @pets
-		
 	end
 
 	def show
@@ -15,7 +14,6 @@ class Api::V1::PetsController < ApiController
 	end
 
 	def new
-		byebug
 		@pet = Pet.new
 	end
 
@@ -26,7 +24,6 @@ class Api::V1::PetsController < ApiController
   	else
   		render json: pet.errors
   	end
-
 	end
 
 	private
@@ -37,6 +34,11 @@ class Api::V1::PetsController < ApiController
 
 	def pet_params
 		params.require(:pet).permit(:name, :race, :age, :photos, :user_id )
+		#upload_images
+		
 	end
 
+	
+
 end
+
