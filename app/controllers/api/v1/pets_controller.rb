@@ -34,11 +34,7 @@ class Api::V1::PetsController < ApiController
 
 	def pet_params
 		params.require(:pet).permit(:name, :race, :age, :photos, :user_id )
-		#upload_images
-		
 	end
-
-	
 
 end
 
