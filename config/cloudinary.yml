@@ -1,18 +1,19 @@
+---
 development:
-  cloud_name: de8t2zz8b
-  api_key: '857372558745333'
-  api_secret: E8a2l_pYS3YEBtEHHTYq348Lq_U
+  cloud_name: hhv50xuay
+  api_key: '467595369249531'
+  api_secret: WmKjrPKSw8T5gJ6gnwMpR66x7TA
   enhance_image_tag: true
   static_image_support: false
 production:
-  cloud_name: de8t2zz8b
-  api_key: '857372558745333'
-  api_secret: E8a2l_pYS3YEBtEHHTYq348Lq_U
+  cloud_name: hhv50xuay
+  api_key: '467595369249531'
+  api_secret: WmKjrPKSw8T5gJ6gnwMpR66x7TA
   enhance_image_tag: true
   static_image_support: true
 test:
-  cloud_name: de8t2zz8b
-  api_key: '857372558745333'
-  api_secret: E8a2l_pYS3YEBtEHHTYq348Lq_U
+  cloud_name: hhv50xuay
+  api_key: '467595369249531'
+  api_secret: WmKjrPKSw8T5gJ6gnwMpR66x7TA
   enhance_image_tag: true
   static_image_support: false
