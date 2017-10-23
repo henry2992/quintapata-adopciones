@@ -18,7 +18,9 @@ class Api::V1::PetsController < ApiController
 	end
 
 	def create
+		byebug
   	pet = Pet.new(pet_params)
+		pet.assing_user(params[:user_email], params[:user_name], params[:user_phone])
   	if pet.save 
   		render json: pet
   	else
@@ -33,8 +35,7 @@ class Api::V1::PetsController < ApiController
 	end
 
 	def pet_params
-		params.require(:pet).permit(:name, :race, :age, :photos, :user_id )
+		params.require(:pet).permit(:name, :race, :age, :photos)
 	end
 
 end
-
