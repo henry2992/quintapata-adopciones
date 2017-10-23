@@ -37,4 +37,8 @@ class Api::V1::PetsController < ApiController
 		params.require(:pet).permit(:name, :race, :age, :photos)
 	end
 
+	def facebook
+		@facebook ||= Koala::Facebook::API.new(oauth_token)
+	end
+
 end

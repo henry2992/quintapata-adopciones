@@ -39,6 +39,10 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'active_model_serializers', '~> 0.10.0'
 gem 'carrierwave'
 gem 'cloudinary'
+gem 'koala'
+gem 'omniauth-facebook'
+
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
