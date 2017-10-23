@@ -18,7 +18,6 @@ class Api::V1::PetsController < ApiController
 	end
 
 	def create
-		byebug
   	pet = Pet.new(pet_params)
 		pet.assing_user(params[:user_email], params[:user_name], params[:user_phone])
   	if pet.save 
