@@ -40,6 +40,7 @@ gem 'active_model_serializers', '~> 0.10.0'
 gem 'carrierwave'
 gem 'cloudinary'
 gem 'koala'
+gem 'omniauth'
 gem 'omniauth-facebook'
 
 
