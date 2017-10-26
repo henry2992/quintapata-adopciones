@@ -1,5 +1,5 @@
 Koala.configure do |config|
-  config.app_id = "511697245850168"
-  config.app_secret = "745c21d1e4f0f69bdc90b3fbc8de2b4b"
+  config.app_id = "370670703363428"
+  config.app_secret = "e45c430497db6ccc194af86242e809a3"
 end
 
